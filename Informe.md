@@ -6,7 +6,8 @@
 ## Introducción
 En este informe, se utilizará el concepto de benchmarking para evaluar el rendimiento de diferentes CPU. En primer lugar, utilizaremos algunas de las herramientas de terceros disponibles en el mercado para evaluar el rendimiento de algunos procesadores. En segundo lugar, utilizaremos herramientas para obtener nuestros propios resultados.
 
-## Tareas
+## Desarrollo
+### Tareas
 - Ofimática
 - Streaming
 - Programación
@@ -39,3 +40,17 @@ General Considerations
 Cinebench (CPU based): For rendering tasks relevant for all categories.
 Storage Performance Tests: Use tools like CrystalDiskMark or ATTO Disk Benchmark to evaluate how storage speed affects all tasks, especially in I/O-heavy applications.
 Cross-application Workflow Tests: Combine tasks from different categories to measure overall system performance in multitasking scenarios.
+
+### Fórmulas
+#### Rendimiento
+
+$$T_{instruccion} = CPI * T_{CPU}$$
+$$T_{prog} = N°instrucciones * CPI * T_{CPU}$$
+$$\eta_{prog} = \frac{1}{T_{prog}}  = \frac{1}{N°instruc * CPI * T_{CPU}} = \frac{f_{CPU}}{N°instruc * CPI} s^{-1}$$
+
+#### Desempeño
+$$Speedup = \frac{Rendimiento mejorado}{Rendimiento original} = \frac{EX_{CPU original}}{EX_{CPU mejorado}}$$
+
+#### Eficiencia
+$$Eficiencia = \frac{Speedup_n}{n}$$
+
