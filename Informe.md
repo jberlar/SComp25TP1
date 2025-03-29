@@ -46,3 +46,19 @@ $$Eficiencia = \frac{Speedup_n}{n}$$
 |---------------------------------------|-------------------|---------------------|
 | Intel Core i5-13600K                 | 1,4286            | 1,72                |
 | AMD Ryzen 9 5900X 12-Core             | 1,625             | 2,06                |
+
+### Time Profiling
+Siguiendo el tutorial disponible, se obtuvieron los siguientes resultados, de acuerdo a cada uno de nuestros sistemas:
+| Detalles del sistema                  | Tiempo total [s] | Tiempo main [s]| Tiempo func1 [s] | Tiempo func2 [s]| Tiempo newfunc [s] |
+|---------------------------------------|-------------------|---------------------|---------------------|---------------------|---------------------|
+| Intel Core i5-10210U @ 1.60GHz - 16GB RAM - 512 SSD   | 59 | 0.39 |6.82 |3.97|0.38|
+
+Una de estas ejecuciones es visualizable en el siguiente gráfico generado con gprof2dot y graphviz : 
+![](img/analysis.png)
+
+También se realizó el análisis con perf: 
+![](img/perf.png)
+
+Como se puede apreciar, los resultados son similares con ambas herramientas. Las mínimas diferencias se deben al código extra que es añadido por gprof para recolectar más información.
+
+## Conclusiones
