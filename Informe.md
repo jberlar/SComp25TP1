@@ -53,6 +53,8 @@ Siguiendo el tutorial disponible, se obtuvieron los siguientes resultados, de ac
 |---------------------------------------|-------------------|---------------------|---------------------|---------------------|---------------------|
 | Intel Core i5-10210U @ 1.60GHz - 16GB RAM - 512 SSD   | 59 | 0.39 |6.82 |3.97|0.38|
 | Intel Core i5-13450HX  × 16 - 512GB SSD - 16GB RAM  | 2.28 | 0.09 |1.32 |0.78|0.09|
+| Intel® Core™ i5-9300H x 4 @ 2,4GHz - 512GB SSD - 12GB RAM | 10.32 | 0,39 | 5,48 | 4,08 | 0,38|
+	
 
 Una de estas ejecuciones es visualizable en el siguiente gráfico generado con gprof2dot y graphviz : 
 ![](img/analysis.png)
