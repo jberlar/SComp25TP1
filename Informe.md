@@ -22,7 +22,7 @@ Handbrake Encoding Benchmark: Test encoding speeds for video files at various re
 Blender (Open Data Benchmarks): Use the rendering section for real-time performance benchmarks in streaming graphics.
 3. Programación
 Cinebench: evalúa el rendimiento del CPU y sus cores.
-4. Compilación (Compilation)
+4. Compilación
 Timed GCC Compilation Benchmark (Open Benchmarking): mide el tiempo de compilación de GCC, dependiendo del CPU y la memoria.
 5. Videojuegos (Gaming)
 3DMark: Offers different tests (like Fire Strike and Time Spy) to benchmark gaming performance.
