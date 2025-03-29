@@ -31,3 +31,18 @@ $$Speedup = \frac{Rendimiento mejorado}{Rendimiento original} = \frac{EX_{CPU or
 
 #### Eficiencia
 $$Eficiencia = \frac{Speedup_n}{n}$$
+
+### Comparacion de rendimiento y desempaño entre procesadores al compilar el kernel de linux
+#### Datos del benchmark de compilacion
+
+| Procesador                              | Tiempo de Ejecución | Rendimiento Promedio |
+|-----------------------------------------|---------------------|----------------------|
+| Intel Core i5-13600K                   | 83 +/- 3            | 0,01205              |
+| AMD Ryzen 9 5900X 12-Core               | 97 +/- 6            | 0,01031              |
+| AMD Ryzen 9 7950X 16-Core               | 53 +/- 3            | 0,01887              |
+
+#### Aceleracion comparada con AMD Ryzen 9 7950X 16-Core
+| Procesador Base                       | Speedup Peor Caso | Speedup Mejor Caso |
+|---------------------------------------|-------------------|---------------------|
+| Intel Core i5-13600K                 | 1,4286            | 1,72                |
+| AMD Ryzen 9 5900X 12-Core             | 1,625             | 2,06                |
