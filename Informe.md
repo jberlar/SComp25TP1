@@ -50,14 +50,12 @@ Cinebench: evalúa el rendimiento del CPU y sus cores.
 Timed GCC Compilation Benchmark (Open Benchmarking): mide el tiempo de compilación de GCC, dependiendo del CPU y la memoria.
 >>>>>>> feature/benchmarks-prog-comp
 5. Videojuegos (Gaming)
-3DMark: Offers different tests (like Fire Strike and Time Spy) to benchmark gaming performance.
-Frame Rate Benchmarks: Measure frame rates across different titles using software like FRAPS or built-in game performance metrics.
-Unity Benchmark: Use Unity's benchmark tool to assess graphics performance in a game development context.
+- 3DMark: Es una herramienta creada por UL Benchmarks para determinar el rendimiento de la renderizacion de graficos 3D y la capacidad de procesamiento de la carga de trabajo de la CPU. Al ejecutar 3D Mark se obtiene una puntuacion 3DMark normalizada, basada en los valores obtenidos del "GPU Score" y la "CPU Score", generando un "Overall Score". 
 6. Edición de imágenes (Image Editing)
-Adobe Photoshop Benchmark: Use scripts to automate tasks in Photoshop, measuring performance for specific tasks like applying filters, rendering, or exporting images.
-GIMP Performance Test: Benchmark specific image editing tasks like filtering, resizing, and batch processing.
-CorelDRAW Performance: Run a benchmark on vector graphic rendering and manipulation.
-General Considerations
-Cinebench (CPU based): For rendering tasks relevant for all categories.
-Storage Performance Tests: Use tools like CrystalDiskMark or ATTO Disk Benchmark to evaluate how storage speed affects all tasks, especially in I/O-heavy applications.
-Cross-application Workflow Tests: Combine tasks from different categories to measure overall system performance in multitasking scenarios.
+- Adobe Photoshop Benchmark: Prueba de rendimiento utilizada para evaluar el desempeño de una computadora al ejecutar tareas en Adobe Photoshop. Utiliza diversas herramientas y recursos del sistema, incluyendo:
+    - CPU → Procesamiento de imágenes, filtros y efectos.
+    - GPU → Aceleración gráfica en ciertas tareas.
+    - RAM → Carga y manipulación de imágenes de gran tamaño.
+    - Almacenamiento (SSD/HDD) → Velocidad de lectura/escritura de archivos grandes.
+    - Sistema Operativo → Puede afectar el rendimiento según la optimización de controladores y administración de recursos. 
+
