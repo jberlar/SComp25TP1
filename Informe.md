@@ -7,7 +7,7 @@
 En este informe, se utilizará el concepto de benchmarking para evaluar el rendimiento de diferentes CPU. En primer lugar, utilizaremos algunas de las herramientas de terceros disponibles en el mercado para evaluar el rendimiento de algunos procesadores. En segundo lugar, utilizaremos herramientas para obtener nuestros propios resultados.
 
 ## Desarrollo
-
+En primer lugar, desarrollamos una lista de tareas que realizamos a diario y benchmarks que hemos encontrado que ayudarían a medir el desempeño de una computadora en ellas.
 
 | Tareas                       | Benchmarks                                                                                                           |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -20,6 +20,8 @@ En este informe, se utilizará el concepto de benchmarking para evaluar el rendi
 
 
 ### Fórmulas
+A continuación, se presentan las fórmulas a utilizar.
+
 #### Rendimiento
 
 $$T_{instruccion} = CPI * T_{CPU}$$
@@ -32,8 +34,10 @@ $$Speedup = \frac{Rendimiento mejorado}{Rendimiento original} = \frac{EX_{CPU or
 #### Eficiencia
 $$Eficiencia = \frac{Speedup_n}{n}$$
 
-### Comparacion de rendimiento y desempaño entre procesadores al compilar el kernel de linux
-#### Datos del benchmark de compilacion
+### Comparación de rendimiento y desempeño entre procesadores al compilar el kernel de linux
+Se utilizan los benchmarks provistos para obtener la información de tres procesadores, Intel Core i5-13600K, AMD Ryzen 9 5900X 12-Core y AMD Ryzen 9 7950X 16-Core para realizar las siguientes comparaciones.
+
+#### Datos del benchmark de compilación
 
 | Procesador                              | Tiempo de Ejecución | Rendimiento Promedio |
 |-----------------------------------------|---------------------|----------------------|
@@ -41,7 +45,7 @@ $$Eficiencia = \frac{Speedup_n}{n}$$
 | AMD Ryzen 9 5900X 12-Core               | 97 +/- 6            | 0,01031              |
 | AMD Ryzen 9 7950X 16-Core               | 53 +/- 3            | 0,01887              |
 
-#### Aceleracion comparada con AMD Ryzen 9 7950X 16-Core
+#### Aceleración comparada con AMD Ryzen 9 7950X 16-Core
 | Procesador Base                       | Speedup Peor Caso | Speedup Mejor Caso |
 |---------------------------------------|-------------------|---------------------|
 | Intel Core i5-13600K                 | 1,4286            | 1,72                |
