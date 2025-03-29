@@ -52,6 +52,7 @@ Siguiendo el tutorial disponible, se obtuvieron los siguientes resultados, de ac
 | Detalles del sistema                  | Tiempo total [s] | Tiempo main [s]| Tiempo func1 [s] | Tiempo func2 [s]| Tiempo newfunc [s] |
 |---------------------------------------|-------------------|---------------------|---------------------|---------------------|---------------------|
 | Intel Core i5-10210U @ 1.60GHz - 16GB RAM - 512 SSD   | 59 | 0.39 |6.82 |3.97|0.38|
+| Intel Core i5-13450HX  × 16 - 512GB SSD - 16GB RAM  | 2.28 | 0.09 |1.32 |0.78|0.09|
 
 Una de estas ejecuciones es visualizable en el siguiente gráfico generado con gprof2dot y graphviz : 
 ![](img/analysis.png)
@@ -62,3 +63,10 @@ También se realizó el análisis con perf:
 Como se puede apreciar, los resultados son similares con ambas herramientas. Las mínimas diferencias se deben al código extra que es añadido por gprof para recolectar más información.
 
 ## Conclusiones
+El desarrollo de este trabajo revelo las significativas diferencias en rendimiento que pueden surgir entre sistemas con hardware similar en papel, destacando la importancia que tiene una correcta configuración y optimización del software para aprovechar al máximo las diversas capacidades del hardware. 
+
+La comparación entre las herramientas de profiling de tiempo **gprof** y **perf** puso en manifiesto que la elección entre ellas dependera de las necesidades del usuario: gprof ofreciendo una mayor cantidad de información, mientras que perf proporcionando mediciones mas resumidas pero tambien más precisas, de manera que inclinarse entre una u otra dependera meramente de que es lo que se busca.
+
+Además, se logro la correcta comprendension y aplicacion las ecuaciones de **rendimiento**, **eficiencia** y **speedup**. Esto fue posible al analizar los distintos procesadores, facilitando la evaluación de sus capacidades en un contexto práctico y tangible. 
+
+Finalmente, la diversidad de benchmarks disponibles demuestra que no existe una evaluacion única que defina _que tan bueno_ es un dispositivo; evidenciando que un sistema puede desempeñarse de manera excelente en ciertas tareas y ser muy ineficaz en otras, lo que resalta la importancia de seleccionar correctamente las pruebas adecuadas según los objetivos específicos de medición. En resumen, este análisis subraya la relevancia de un enfoque crítico y adaptado a las necesidades al evaluar el rendimiento de los sistemas computacionales.
