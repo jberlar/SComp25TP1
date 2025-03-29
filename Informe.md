@@ -4,12 +4,12 @@
 ### Profesor: Jorge, Javier.
 
 ## Tareas
-- Ofimatica
+- Ofimática
 - Streaming
-- Programacion
-- Compilacion
+- Programación
+- Compilación
 - Videojuegos
-- Edicion de imagenes
+- Edición de imágenes
 
 
 1. Ofimática (Office Tasks)
@@ -20,14 +20,10 @@ Microsoft Office Performance (Excel, Word, PowerPoint): Measure tasks like openi
 OBS Studio Performance Tests: Measure CPU and GPU utilization while streaming at various resolutions and bitrates.
 Handbrake Encoding Benchmark: Test encoding speeds for video files at various resolutions and formats.
 Blender (Open Data Benchmarks): Use the rendering section for real-time performance benchmarks in streaming graphics.
-3. Programación (Programming)
-Geekbench: Evaluate performance with benchmarks for compiling code.
-Cinebench: Although focused on 3D rendering, it offers insights into CPU performance under multi-threaded workloads that can be reflective of programming tasks.
-VisBench: Specialized benchmarks for measuring performance in various IDE activities.
+3. Programación
+Cinebench: evalúa el rendimiento del CPU y sus cores.
 4. Compilación (Compilation)
-OpenSSL (Compilation Test): Compile OpenSSL with various configurations and measure time.
-Linux Kernel Compilation: Benchmarks that measure the time taken to compile the Linux kernel, an extensive and complex task.
-GCC Compilation Benchmark: Assess the speed of compiling various codebases written in different languages.
+Timed GCC Compilation Benchmark (Open Benchmarking): mide el tiempo de compilación de GCC, dependiendo del CPU y la memoria.
 5. Videojuegos (Gaming)
 3DMark: Offers different tests (like Fire Strike and Time Spy) to benchmark gaming performance.
 Frame Rate Benchmarks: Measure frame rates across different titles using software like FRAPS or built-in game performance metrics.
