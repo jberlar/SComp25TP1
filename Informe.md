@@ -13,13 +13,20 @@
 
 
 1. Ofimática (Office Tasks)
-PCMark 10: This benchmark measures overall office productivity including document editing and presentation tasks.
-3DMark (Time Spy): While primarily a gaming benchmark, it provides insights into performance with DirectX applications which can be relevant for graphics-heavy office applications.
-Microsoft Office Performance (Excel, Word, PowerPoint): Measure tasks like opening documents, data calculations (Excel), rendering presentations (PowerPoint).
-2. Streaming
-OBS Studio Performance Tests: Measure CPU and GPU utilization while streaming at various resolutions and bitrates.
-Handbrake Encoding Benchmark: Test encoding speeds for video files at various resolutions and formats.
-Blender (Open Data Benchmarks): Use the rendering section for real-time performance benchmarks in streaming graphics.
+PCMark 10: es un sistema de evaluación comparativa para PC con Windows centrado en tareas ofimáticas modernas. Ofrece diversas cargas de trabajo clasificadas en cuatro grupos. El grupo Essentials incluye navegación web, videoconferencia y tiempo de arranque de aplicaciones. El grupo Productividad incluye pruebas basadas en hojas de cálculo y escritura. El grupo de Creación de Contenidos Digitales incluye edición de fotos, edición de vídeo y una prueba de renderizado y visualización. El último grupo, Juegos, incluye pruebas de gráficos en tiempo real y física.
+El benchmark PCMark 10 comprueba el rendimiento utilizando los grupos Essentials, Productivity y Digital Content Creation.
+La prueba PCMark 10 Express incluye los grupos Essentials y Productivity.
+La prueba PCMark 10 Extended incluye los grupos Essentials, Productivity, Digital Content Creation y Gaming.
+Elegimos éste porque realizamos principalmente tareas ofimáticas en Windows.
+
+2. Video Call Streaming
+Zoom NetworkConnectivity Tool (Meeting test): sirve para simular una video llamada. La herramienta probará e informará sobre cada uno de los siguientes elementos cuando la prueba esté completa
+- Latencia (RTT): Prueba el retraso en las comunicaciones entre el dispositivo y los servidores de Zoom.
+- Pérdida de Paquetes: Prueba el porcentaje de pérdida de paquetes de datos entre el dispositivo y los servidores de Zoom.
+- Jitter: Prueba la variación de latencia entre el dispositivo y los servidores de Zoom.
+- Códec: Enumera el códec de audio utilizado para enviar y recibir durante la prueba.
+- Frecuencia de Reloj (KHz)
+
 3. Programación (Programming)
 Geekbench: Evaluate performance with benchmarks for compiling code.
 Cinebench: Although focused on 3D rendering, it offers insights into CPU performance under multi-threaded workloads that can be reflective of programming tasks.
